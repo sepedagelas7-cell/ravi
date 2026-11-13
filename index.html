@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#101010">
+    <meta name="description" content="A special birthday celebration made with good memories.">
+
+    <title>HBD — The Main Character</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+<body>
+
+    <!-- BACKGROUND EFFECTS -->
+    <div class="noise"></div>
+    <div class="glow glow-one"></div>
+    <div class="glow glow-two"></div>
+
+    <!-- HEADER -->
+    <header>
+        <a href="#" class="logo">
+            BIRTHDAY<span>®</span>
+        </a>
+
+        <div class="header-right">
+            <span class="status-dot"></span>
+            A DAY WORTH CELEBRATING
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <div class="tag">
+                    <span>✦</span>
+                    TODAY IS YOUR DAY
+                </div>
+
+                <h1>
+                    HAPPY<br>
+                    BIRTH<span>DAY.</span>
+                </h1>
+
+                <div class="hero-bottom">
+
+                    <p>
+                        Another year. Another chapter.<br>
+                        More memories to make.
+                    </p>
+
+                    <button
+                        type="button"
+                        id="startBtn"
+                        class="primary-btn"
+                    >
+                        LET'S CELEBRATE <span>↗</span>
+                    </button>
+
+                </div>
+
+                <div class="hero-number">
+                    01 — SPECIAL EDITION
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+
+                <div class="image-card">
+
+                    <img
+                        src="foto1.jpg"
+                        alt="Birthday portrait"
+                        loading="eager"
+                    >
+
+                    <div class="image-overlay"></div>
+
+                    <div class="image-label">
+                        <span>Ravi Rio Prakoso</span>
+                        <span>Lord</span>
+                    </div>
+
+                </div>
+
+                <div class="floating-text">
+                    GOOD VIBES ONLY.
+                </div>
+
+                <div class="side-number">
+                    13 November 2026
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- HIGHLIGHT -->
+        <section class="highlight">
+
+            <div class="highlight-top">
+                <span>01 / THE CELEBRATION</span>
+                <span>MADE FOR YOU</span>
+            </div>
+
+            <h2>
+                NOT JUST ANOTHER DAY.<br>
+                <span>IT'S YOUR DAY.</span>
+            </h2>
+
+            <div class="highlight-bottom">
+
+                <p>
+                    Here's to new opportunities, bigger dreams,
+                    unexpected adventures, and unforgettable moments.
+                </p>
+
+                <div class="star">✳</div>
+
+            </div>
+
+        </section>
+
+        <!-- LETTER -->
+        <section class="letter-section" id="letter">
+
+            <div class="letter-heading">
+                <span>02 / A MESSAGE FROM YOUR BRO</span>
+                <span>PERSONAL LETTER</span>
+            </div>
+
+            <div class="letter-card">
+
+                <div class="letter-top">
+                    <span>TO MY LORD</span>
+                    <span>WITH RESPECT. ALWAYS.</span>
+                </div>
+
+                <h2>
+                    Yo, <span>Cuki.</span>
+                </h2>
+<div class="letter-content">
+    <p>
+        Happy Birthday!!!
+    </p>
+
+    <p>
+        Nambah umur lagi. Semoga semua urusan dan target tahun ini dilancarkan. 
+        Sehat terus, makin sukses, dan rezekinya selalu mengalir deras.
+    </p>
+
+    <p>
+        Semoga selalu jadi kepala rumah tangga yang baik, penyayang, 
+        dan pengertian buat istri, anak dan keluarga.
+    </p>
+
+    <p>
+        Makin dewasa dan jadi pribadi yang lebih baik lagi dan kurang-kurangin 
+        hal-hal cuki-cukiannya kedepannya, wkwkwkwkwk...
+    </p>
+
+    <p class="last-line">
+        All the best for you!
+    </p>
+</div>
+                </div>
+
+                <div class="letter-footer">
+
+                    <div>
+                        <span>YOUR FRIEND</span>
+                        <h3>Stay Legendary Lord.</h3>
+                    </div>
+
+                    <div class="stamp">✦</div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ENDING -->
+        <section class="ending">
+
+            <div class="ending-star">✳</div>
+
+            <p>ONE MORE THING...</p>
+
+            <h2>
+                MAKE THIS<br>
+                YEAR <span>COUNT.</span>
+            </h2>
+
+            <p class="ending-caption">
+                The best is yet to come. Happy birthday!
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <span>BUILT WITH GOOD MEMORIES.</span>
+
+        <span>
+            © <span id="year"></span> — BIRTHDAY EDITION
+        </span>
+
+    </footer>
+
+    <!-- TOAST -->
+    <div class="toast" id="toast">
+        ✦ LET THE GOOD TIMES BEGIN.
+    </div>
+
+    <!-- FLOATING MUSIC PLAYER -->
+    <div class="vinyl-player">
+
+        <button
+            type="button"
+            id="musicBtn"
+            class="vinyl-btn"
+            aria-label="Play music"
+            aria-pressed="false"
+        >
+
+            <span class="vinyl-disc" id="musicDisc">
+                <span class="vinyl-label"></span>
+            </span>
+
+        </button>
+
+    </div>
+
+    <!-- BACKGROUND MUSIC -->
+    <audio
+        id="bgMusic"
+        src="./music.mp3"
+        loop
+        preload="auto"
+    ></audio>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
